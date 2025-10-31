@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "test:report": "node test-runner.js",
+    "test:open": "npm run test:report && open test-reports/index.html"
   },
   "keywords": [],
   "author": "",

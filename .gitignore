@@ -8,6 +8,7 @@ yarn-error.log*
 coverage/
 *.test.js.snap
 .nyc_output/
+test-reports/
 
 # IDE
 .vscode/
